@@ -5,10 +5,27 @@
 
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
+  background-color: #ffffff;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+.active {
+  color: rgba(255, 0, 0, 0.815);
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.inactive {
+  color: rgba(255, 255, 255, 0.822);
+  text-decoration: none;
+  font-weight: 500;
+}
+
+p {
+  padding: 0;
+  margin: 0;
 }
